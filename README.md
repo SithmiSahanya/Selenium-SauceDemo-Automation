@@ -4,7 +4,7 @@
 
 This project focuses on automating the functional testing of the SauceDemo e-commerce website using Python, Selenium WebDriver, and Pytest.
 
-The project follows the Page Object Model (POM) design pattern to improve code organization, readability, and maintainability.
+The project follows the **Page Object Model (POM)** design pattern to improve code organization, readability, and maintainability.
 
 ## Website Under Test
 
@@ -21,6 +21,7 @@ https://www.saucedemo.com/
 
 ## Project Structure
 
+```text
 Selenium-SauceDemo-Automation/
 │
 ├── pages/
@@ -41,17 +42,18 @@ Selenium-SauceDemo-Automation/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 
 ## Test Coverage
 
-A total of 27 automated test cases have been implemented.
+A total of **27 automated test cases** have been implemented.
 
-| Test Module                | Number of Test Cases |
-| Login Testing              | 8 |
-| Inventory Testing          | 9 |
+| Test Module | Number of Test Cases |
+|---|---:|
+| Login Testing | 8 |
+| Inventory Testing | 9 |
 | Shopping Cart and Checkout Testing | 10 |
-| Total                      | 27 |
+| **Total** | **27** |
 
 ### Main Testing Scenarios
 
@@ -68,37 +70,54 @@ A total of 27 automated test cases have been implemented.
 ## Installation and Setup
 
 1. Clone the repository:
+
+```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
+```
 
 2. Navigate to the project folder:
+
+```bash
 cd Selenium-SauceDemo-Automation
+```
 
 3. Create a virtual environment:
+
+```bash
 python -m venv venv
+```
 
 4. Activate the virtual environment (Windows):
+
+```bash
 venv\Scripts\activate
+```
 
 5. Install the required packages:
-pip install -r requirements.txt
 
+```bash
+pip install -r requirements.txt
+```
 
 ## Execute Automated Tests
 
 Run all test cases:
 
+```bash
 python -m pytest -v
-
+```
 
 ## Generate HTML Test Report
 
+```bash
 python -m pytest --html=reports/report.html --self-contained-html
+```
 
 Open `reports/report.html` in a browser to view the test execution results.
 
 ## Test Execution Results
 
-Latest execution: 27 Passed
+**Latest execution:** 27 Passed
 
 ## Author
 
