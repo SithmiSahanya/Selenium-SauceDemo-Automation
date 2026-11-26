@@ -19,6 +19,7 @@ https://www.saucedemo.com/
 - Google Chrome
 - Git and GitHub
 
+
 ## Project Structure
 
 ```text
@@ -34,15 +35,13 @@ Selenium-SauceDemo-Automation/
 │   ├── test_inventory.py
 │   └── test_cart.py
 │
-├── reports/
-├── screenshots/
-│
 ├── config.py
 ├── conftest.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
+
 
 ## Test Coverage
 
